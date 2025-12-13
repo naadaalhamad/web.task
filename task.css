@@ -32,7 +32,7 @@
 .icons {
     display: flex;
     gap: 2vw;
-    
+    flex-shrink: 0;
 }
 
 .icons i {
@@ -52,4 +52,211 @@
     justify-content: center;
     gap: 3vw;
 }
+.welcomeSection{
+    
+    
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8vh 6vw;
+    gap: 5vw;
+    flex-wrap: wrap;
+}
+
+.welcomeTo{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+#welcome_to h1,
+#book_store h1 {
+    margin: 0;
+    line-height: 1.1;
+    display: block;
+    font-size: 5vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+#book_store h1 {
+    color: #089da1;
+    
+}
+
+.welcomeContent  {
+    padding-top: 10rem;
+    width: 40vw;
+    font-size: 2.2vh;
+    line-height: 3vh;
+    margin-top: 2vh;
+    padding-bottom: 4.375rem;
+}
+
+.learnmore_button {
+    text-decoration: none;
+    background-color: hsl(181.57deg 90.53% 33.14%);
+    padding: 1.5vh 3vw;
+    color: white;
+    font-size: 1.8vh;
+    border: none;
+    
+}
+
+.welcomeImage img {
+    padding-top: 10rem;
+    width: 40vw;
+    max-width: 45vw;
+}
+
+.learnmore_button:hover {
+    background-color: hsl(181.57deg 90.53% 40%);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+.pros div {
+    box-shadow: 0 .4vh 1.4vh rgba(0,0,0,.1);
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    margin-top: 2.5rem;
+}
+.service-box {
+    width: 18.75rem;
+    padding: 0.625rem;
+    text-align: center;
+    margin-top: 28.125rem;
+    border: 0.2vh solid #1dc6c6;
+    box-shadow: 0 0.4vh 1.4vh rgba(38, 248, 248, 0.1);
+    background: white;
+}
+
+.service-box i {
+    font-size: 2.5rem;
+    color: #00A8B5;
+    margin-bottom: 0.625rem;
+}
+
+.service-box h1 {
+    font-size: 1.25rem;
+    color: #000000;
+}
+
+.service-box p {
+    font-size: 0.875rem;
+    color: #000000;
+}
+
+.service-box:hover {
+    background-color: #e8fafb;
+}
+.about_us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+    margin: 0 2rem;
+}
+
+.aboutus_img img {
+    width: 34.375rem;
+    max-width: 100%;
+    margin-top: 3.125rem;
+}
+
+.aboutus_text h1 {
+    font-size: 2.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 1rem;
+}
+
+.aboutus_text p {
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    padding: 0.3125rem;
+    max-width: 31.25rem;
+}
+
+.new_arrivals {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    gap: 3rem;
+    justify-items: center;
+    margin-top: 3rem;
+}
+
+.arrivals_title {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: -1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.arrival_card {
+    width: 14rem;
+    text-align: center;
+    padding: 1rem;
+    border: 0.15rem solid #e2e2e2;
+    background: white;
+    box-shadow: 0 0.4vh 1.4vh rgba(126, 65, 65, 0.2);
+}
+
+.arrival_card img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.arrival_card p {
+    margin: .5rem 0;
+    font-weight: 500;
+}
+
+.stars i {
+    color: #18cfcf;
+    font-size: 1.2rem;
+}
+
+.learnmore_btn {
+    margin-top: .8rem;
+    padding: .4rem 1rem;
+    background: #ffffff;
+    border: solid .1rem rgb(36, 198, 216) ;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: .9rem;
+}
+
+.learnmore_btn:hover{
+    background-color: #befafa;
+}
+.arrival_card img:hover {
+    transform: scale(1.09);
+    cursor: pointer;
+    
+}
+
+
+.arrival_card:hover {
+    border-color: #00A8B5;
+}
+
+
+
+
+
+
+
 
