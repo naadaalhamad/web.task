@@ -139,3 +139,35 @@ p{
 .featured:hover{
     box-shadow:1px 1px 3px 3px hsl(181.85deg 44.83% 71.57%);
 }
+.review_li{
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    width: 300px;      
+    box-shadow:1px 1px 3px 3px hsl(181.85deg 44.83% 71.57%);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+
+}
+.review_image{
+    width: 60px;     
+    height: 60px;    
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-bottom: 0px;
+}
+.review_img_icon{
+    display: flex;      
+    align-items: center;
+    gap: 160px;
+    
+}
+
+.review_img_icon_i{
+    color: #eaeaea;
+    font-size: 80px;
+    
+}
