@@ -175,6 +175,21 @@ p{
     margin:2px;
     
 }
+.digital-book-section {
+    position: relative;
+    width: 100%;
+}
+.digital-book-section_img {
+   width: 1500px;   
+    display: block;
+}
+
+.digital-book-section_btn {
+    position: absolute;
+    top: 75%;  
+    left: 20%;  
+    transform: translate(-50%, -50%);
+}
 .blog_ol{
     gap: 100px;
     
