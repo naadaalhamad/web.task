@@ -131,6 +131,36 @@
     flex-wrap: wrap;
     margin-top: 2.5rem;
 }
+.service-box {
+    width: 18.75rem;
+    padding: 0.625rem;
+    text-align: center;
+    margin-top: 28.125rem;
+    border: 0.2vh solid #1dc6c6;
+    box-shadow: 0 0.4vh 1.4vh rgba(38, 248, 248, 0.1);
+    background: white;
+}
+
+.service-box i {
+    font-size: 2.5rem;
+    color: #00A8B5;
+    margin-bottom: 0.625rem;
+}
+
+.service-box h1 {
+    font-size: 1.25rem;
+    color: #000000;
+}
+
+.service-box p {
+    font-size: 0.875rem;
+    color: #000000;
+}
+
+.service-box:hover {
+    background-color: #e8fafb;
+}
+
 
 
 
