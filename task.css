@@ -100,4 +100,42 @@ p{
 
 
 }
-
+.price_span{
+    text-decoration: line-through;
+    font-size: 13px;
+    font-weight: 10;
+    vertical-align: sub;
+}
+.featured_button{
+   
+    background-color: white;
+    border: 3px solid hsl(181.57deg 90.53% 33.14%);
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0px;
+    
+}
+.featured p {
+    font-size: 17px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.featured h2{
+    padding: 0px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.featured h4{
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+.featured_img{
+    width: 150px;
+    height: 220px;
+    object-fit: cover;
+}
+.featured:hover{
+    box-shadow:1px 1px 3px 3px hsl(181.85deg 44.83% 71.57%);
+}
