@@ -218,3 +218,70 @@ p{
     
     
 }
+footer{
+    clear: both;
+    background-color: hsl(0deg 0% 91.76%);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    
+    
+
+}
+footer div{
+    max-width: 200px;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    gap: 5px;
+    
+}
+footer div div{
+    display: flex;
+    
+}
+.newsletter{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;             
+   width: 150px;
+   
+}
+.follow_us{
+    display: flex;
+    gap: 13px;
+    margin-left: 5px;
+}
+.email_button{
+    border-radius: 20px;
+    background-color: hsl(0deg 0% 79.22%);
+    padding: 7px;
+    padding-right: 60px;
+    padding-left: 10px;
+    border: none;
+    margin-bottom: 3px;
+    font-size: 10px;
+}
+.subscribe_button{
+    border-radius: 20px;
+    background-color:hsl(181.57deg 90.53% 33.14%);
+    padding: 7px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: none;
+    color: white;
+    font-size: 10px;
+    
+}
+footer div p{
+    margin: 0px;
+    padding: 3px;
+}
+.design_by{
+    text-align: center;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
