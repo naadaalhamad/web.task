@@ -32,7 +32,7 @@
 .icons {
     display: flex;
     gap: 2vw;
-    
+    flex-shrink: 0;
 }
 
 .icons i {
@@ -52,4 +52,50 @@
     justify-content: center;
     gap: 3vw;
 }
+.welcomeSection{
+    
+    
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8vh 6vw;
+    gap: 5vw;
+    flex-wrap: wrap;
+}
+
+.welcomeTo{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+#welcome_to h1,
+#book_store h1 {
+    margin: 0;
+    line-height: 1.1;
+    display: block;
+    font-size: 5vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+#book_store h1 {
+    color: #089da1;
+    
+}
+
+.welcomeContent  {
+    padding-top: 10rem;
+    width: 40vw;
+    font-size: 2.2vh;
+    line-height: 3vh;
+    margin-top: 2vh;
+    padding-bottom: 4.375rem;
+}
+
+
 
