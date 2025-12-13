@@ -120,5 +120,19 @@
 }
 
 
+.pros div {
+    box-shadow: 0 .4vh 1.4vh rgba(0,0,0,.1);
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    margin-top: 2.5rem;
+}
+
+
+
 
 
