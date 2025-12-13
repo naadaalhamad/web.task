@@ -51,7 +51,7 @@ p{
 .icons {
     display: flex;
     gap: 2vw;
-    
+    flex-shrink: 0;
 }
 
 .icons i {
