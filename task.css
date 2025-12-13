@@ -71,4 +71,33 @@ p{
     justify-content: center;
     gap: 3vw;
 }
+.book_slider{
+    display: flex;             
+    gap: 40px;                 
+    overflow-x: auto;          
+    scroll-behavior: smooth;   
+    padding: 10px 0;
+    margin: 0
+}  
+.book_slider::-webkit-scrollbar{
+    height: 8px;
+}  
+.book_slider::-webkit-scrollbar-track{
+    background: #eaeaea;
+}
+.book_slider::-webkit-scrollbar-thumb{
+    background-color: hsl(181.57deg 90.53% 33.14%);
+    border-radius: 4px;
+}
+
+.featured{
+   flex: 0 0 auto;            
+    width: 220px;             
+    background-color: white;
+    border: 2px solid gray;
+    text-align: center;
+    padding: 12px;
+
+
+}
 
