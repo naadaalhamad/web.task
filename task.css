@@ -97,5 +97,28 @@
     padding-bottom: 4.375rem;
 }
 
+.learnmore_button {
+    text-decoration: none;
+    background-color: hsl(181.57deg 90.53% 33.14%);
+    padding: 1.5vh 3vw;
+    color: white;
+    font-size: 1.8vh;
+    border: none;
+    
+}
+
+.welcomeImage img {
+    padding-top: 10rem;
+    width: 40vw;
+    max-width: 45vw;
+}
+
+.learnmore_button:hover {
+    background-color: hsl(181.57deg 90.53% 40%);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
 
 
