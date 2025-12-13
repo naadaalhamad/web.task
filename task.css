@@ -160,6 +160,34 @@
 .service-box:hover {
     background-color: #e8fafb;
 }
+.about_us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+    margin: 0 2rem;
+}
+
+.aboutus_img img {
+    width: 34.375rem;
+    max-width: 100%;
+    margin-top: 3.125rem;
+}
+
+.aboutus_text h1 {
+    font-size: 2.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 1rem;
+}
+
+.aboutus_text p {
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    padding: 0.3125rem;
+    max-width: 31.25rem;
+}
+
+
 
 
 
